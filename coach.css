@@ -1,0 +1,271 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-style: semi-bold;
+    font-family: 'Montserrat';
+}
+#class {
+    align-self: center;
+}
+
+.founder-info h2 {
+    font-family: 'Playfair Display';
+}
+
+#verified {
+    width: 10px;
+}
+
+
+.founder img {
+        width: 300px;
+        height: 300px;
+        ;
+        border-radius: 50%;
+        margin-top: 20px;
+        display: inline-block;
+}
+
+html {
+    background: url('https://img.freepik.com/premium-photo/indoor-space-gym-ai-technology-generated-image_1112-12540.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+body {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 80px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.client {
+    max-width: 100vw;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+*{
+    box-sizing: border-box;
+}
+.client_overlay_container {
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#client1 {
+    background-image: url('img/client1before.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animate-1;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-1{
+    0%{
+        background-image: url(img/client1after.jpg);
+    }
+    20%{
+        background-image: url(img/client1before.jpg);
+    }
+    40%{
+        background-image: url(img/client1after.jpg);
+    }
+    60%{
+        background-image: url(img/client1before.jpg);
+    }
+    80%{
+        background-image: url(img/client1after.jpg);
+    }
+    100%{
+        background-image: url(img/client1before.jpg);
+    }
+}
+
+#client2 {
+    background: #f55 url('img/client2before.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animate-2;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-2{
+    0%{
+        background-image: url(img/client2after.jpg);
+    }
+    20%{
+        background-image: url(img/client2before.jpg);
+    }
+    40%{
+        background-image: url(img/client2after.jpg);
+    }
+    60%{
+        background-image: url(img/client2before.jpg);
+    }
+    80%{
+        background-image: url(img/client2after.jpg);
+    }
+    100%{
+        background-image: url(img/client2before.jpg);
+    }
+}
+
+#client3 {
+    background: #f55 url('img/client3before.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animate-3;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-3{
+    0%{
+        background-image: url(img/client3after.jpg);
+    }
+    20%{
+        background-image: url(img/client3before.jpg);
+    }
+    40%{
+        background-image: url(img/client3after.jpg);
+    }
+    60%{
+        background-image: url(img/client3before.jpg);
+    }
+    80%{
+        background-image: url(img/client3after.jpg);
+    }
+    100%{
+        background-image: url(img/client3before.jpg);
+    }
+}
+
+#client4 {
+    background: #f55 url('img/client4before.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animate-4;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-4{
+    0%{
+        background-image: url(img/client4after.jpg);
+    }
+    20%{
+        background-image: url(img/client4before.jpg);
+    }
+    40%{
+        background-image: url(img/client4after.jpg);
+    }
+    60%{
+        background-image: url(img/client4before.jpg);
+    }
+    80%{
+        background-image: url(img/client4after.jpg);
+    }
+    100%{
+        background-image: url(img/client4before.jpg);
+    }
+}
+
+.client_overlay_container:hover .client_overlay_text {
+    bottom: 0;
+    opacity: 1;
+}
+
+.client_overlay_text {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 300;
+    height: 168;
+    padding: 0px 5px;
+    position: absolute;
+    bottom: -168px;
+    color: white;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.overlay_title {
+    text-transform: capitalize;
+}
+
+.overlay_content {
+    text-align: left;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    line-height: 40px;
+}
+
+.form_header {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.submitbutton {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer_h3 {
+    padding-bottom: 0px;
+}
+
+.contactlist {
+    list-style-type: none
+}
